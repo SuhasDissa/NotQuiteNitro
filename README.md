@@ -18,6 +18,21 @@ Chrome extension to use Discord Emoji without Nitro
 
 It will get copied to the clipboard
 
+## FAQ
+
+#### Does this steal my TOKEN?
+
+Simply, No
+This extension doesn't use your token or doesn't even connect to the internet
+
+#### How does it work?
+
+This extension only modify already loaded website
+
+#### Will my Discord account get banned?
+
+Hm , I dont think so. Technically this extesnsion does not communicate with discord servers. So there's no direct way for people at discord to know if you use this or not
+
 ## Important Messages
 
 - This is still under development, so be sure to check this repository frequently
