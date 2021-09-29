@@ -3,6 +3,9 @@
 
 
 Chrome extension to use Discord Emoji without Nitro
+
+![Demo](./demo.gif)
+
 ## Installation Instructions Google Chrome / Microsoft Edge
 
 - Download this repo as a ZIP file from GitHub.
