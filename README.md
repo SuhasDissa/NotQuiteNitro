@@ -51,6 +51,5 @@ Join my discord server for the latest updates
 
 - I alredy know Its somewhat not what you expected
 - dont worry I'll try my best to make it better
-- Suggest a good icon for the extension too
 
   
