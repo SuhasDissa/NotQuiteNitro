@@ -1,12 +1,17 @@
 {
-"manifest_version": 3,
-
-"name": "Not Quite Nitro",
-"description": "An extension that allows you to use discord emoji without nitro",
-"version": "1.0",
-"content_scripts": [
-{
-"matches": ["https://discord.com/*"],
-"js": ["jquery.min.js","script.js"]
-}]
+    "manifest_version": 3,
+    "name": "Not Quite Nitro",
+    "description": "An extension that allows you to use discord emoji without nitro",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://discord.com/*"
+            ],
+            "js": [
+                "jquery.min.js",
+                "script.js"
+            ]
+        }
+    ]
 }

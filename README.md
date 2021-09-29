@@ -18,7 +18,15 @@ Chrome extension to use Discord Emoji without Nitro
 
 It will get copied to the clipboard
 
-  
+## Important Messages
+
+- This is still under development, so be sure to check this repository frequently
+
+## Known Bugs
+
+- This extension may slow down Discord if you keep dicord open for longer
+- You can refresh Discord to get it back to normal state (I will fix the bug soon)
+
 ## Known Issues
 
 - I alredy know Its somewhat not what you expected
