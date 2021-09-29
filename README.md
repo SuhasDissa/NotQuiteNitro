@@ -24,6 +24,7 @@ It will get copied to the clipboard
 
 Simply, No
 This extension doesn't use your token or doesn't even connect to the internet
+(Feel free to look at the code)
 
 #### How does it work?
 
