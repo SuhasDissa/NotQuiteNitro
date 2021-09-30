@@ -40,7 +40,6 @@ Hm , I dont think so. Technically this extesnsion does not communicate with disc
 ## Important Messages
 
 - This is still under development, so be sure to check this repository frequently
-- 
 ## 🔗 Links
 Join my discord server for the latest updates
 
