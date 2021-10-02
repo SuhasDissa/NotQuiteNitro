@@ -1,4 +1,6 @@
-
+<p align="center">
+<img src="images/banner.jpg" width="100%">
+</p>
 # Not Quite Nitro
 
 
