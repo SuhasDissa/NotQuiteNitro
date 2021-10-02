@@ -1,8 +1,6 @@
 <p align="center">
 <img src="images/banner.jpg" width="100%">
 </p>
-# Not Quite Nitro
-
 
 Chrome extension to use Discord Emoji without Nitro
 
