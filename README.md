@@ -8,6 +8,8 @@ Chrome extension to use Discord Emoji without Nitro
 
 ## Installation Instructions Chrome / Microsoft Edge / Brave / Opera
 
+[![Download](https://img.shields.io/badge/Download-238636?style=for-the-badge&logoColor=white)](https://github.com/SuhasDissa/NotQuiteNitro/archive/refs/heads/main.zip)
+
 - Download this repo as a ZIP file from GitHub.
 - Unzip the file.
 - In Chrome/Edge go to the extensions page (chrome://extensions or brave://extensions or opera://extensions).
