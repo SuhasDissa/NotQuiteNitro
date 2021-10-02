@@ -14,7 +14,7 @@ Chrome extension to use Discord Emoji without Nitro
 - Enable Developer Mode.
 - Drag the extracted folder anywhere on the page to import it (do not delete the folder afterwards).
 <p align="center">
-<img src="images/integrations.png" width="320px">
+<img src="images/integrations.png" height="64px">
 </p>
 ## How to use
 
