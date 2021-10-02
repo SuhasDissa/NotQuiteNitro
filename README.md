@@ -16,6 +16,7 @@ Chrome extension to use Discord Emoji without Nitro
 <p align="center">
 <img src="images/integrations.png" height="64px">
 </p>
+
 ## How to use
 
 #### Click on any emoji (in emoji panel or in chat)
