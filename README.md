@@ -49,10 +49,3 @@ Join my discord server for the latest updates
 ## Known Bugs
 
 We Fixed all previous bugs !!!
-
-## Known Issues
-
-- I alredy know Its somewhat not what you expected
-- dont worry I'll try my best to make it better
-
-  
