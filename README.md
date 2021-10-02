@@ -46,8 +46,7 @@ Join my discord server for the latest updates
 [![My Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8PKCPjQF5n)
 ## Known Bugs
 
-- This extension may slow down Discord if you keep dicord open for longer
-- You can refresh Discord to get it back to normal state (I will fix the bug soon)
+We Fixed all previous bugs !!!
 
 ## Known Issues
 
