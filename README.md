@@ -4,8 +4,6 @@
 
 Chrome extension to use Discord Emoji without Nitro
 
-![Demo](./demo.gif)
-
 ## Installation Instructions Chrome / Microsoft Edge / Brave / Opera
 
 [![Download](https://img.shields.io/badge/Download-238636?style=for-the-badge&logoColor=white)](https://github.com/SuhasDissa/NotQuiteNitro/archive/refs/heads/main.zip)
@@ -24,6 +22,10 @@ Chrome extension to use Discord Emoji without Nitro
 #### Click on any emoji (in emoji panel or in chat)
 
 It will get copied to the clipboard
+
+## Screenshots
+
+<img src="demo.gif" width="100%">
 
 ## FAQ
 
