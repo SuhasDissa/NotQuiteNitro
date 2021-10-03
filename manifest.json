@@ -4,6 +4,7 @@
     "description": "An extension that allows you to use discord emoji without nitro",
     "version": "1.0",
     "action": {
+    "default_popup": "popup.html",
     "default_icon": {
       "16": "/images/16.png",
       "32": "/images/32.png",
