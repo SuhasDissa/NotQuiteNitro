@@ -13,6 +13,7 @@ Chrome extension to use Discord Emoji without Nitro
 - In Chrome/Edge go to the extensions page (chrome://extensions or brave://extensions or opera://extensions).
 - Enable Developer Mode.
 - Drag the extracted folder anywhere on the page to import it (do not delete the folder afterwards).
+- **This Extension may not work with Firefox**
 <p align="center">
 <img src="images/integrations.png" height="64px">
 </p>
@@ -46,10 +47,7 @@ Hm , I dont think so. Technically this extesnsion does not communicate with disc
 ## Important Messages
 
 - This is still under development, so be sure to check this repository frequently
-## 🔗 Links
-Join my discord server for the latest updates
 
-[![My Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8PKCPjQF5n)
 ## Known Bugs
 
-We Fixed all previous bugs !!!
+I Fixed all the previous bugs !!!
