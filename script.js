@@ -1,12 +1,12 @@
 $(document).ready(function () {
     //setInterval(function () { $("img").attr("draggable", "true"); }, 1000);
     setInterval(function () {
-        $("img").attr("style", "pointer-events: all;");
-        $("div[class*='listItems'] div[class*='categorySection'] ul li").attr("style", "filter: grayscale(0);");
+        $("img").css('pointer-events','all');
+        $("div[class*='listItems'] div[class*='categorySection'] ul li button").attr("style", "filter: grayscale(0);");
         $("div[class*='premiumPromo']").remove();
     }, 100);
     setInterval(function () {
-        $("div[class*='listItems'] div[class*='categorySection'] ul li img[class*='image']").each(function () {
+        $("div[class*='listItems'] div[class*='categorySection'] ul li button img[class*='image']").each(function () {
             if ($(this).attr("fuckedup") != "true") {
                 $(this).attr("fuckedup", "true");
                 $(this).click(function (e) {
