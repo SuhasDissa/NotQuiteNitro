@@ -1,7 +1,7 @@
 $(document).ready(function () {
     //emotes
     setInterval(function () {
-        $("img").css('pointer-events','all');
+        //$("img").css('pointer-events','all'); // bad for performance
         $("div[class*='listItems'] div[class*='categorySection'] ul li button").css('filter',' grayscale(0)');
         $("div[class*='premiumPromo']").remove();
     //stickers
