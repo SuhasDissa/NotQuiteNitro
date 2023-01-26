@@ -3,7 +3,7 @@ $(document).ready(function () {
         // make emotes coloured and clickable
         $("div[class*='listItems'] div[class*='categorySection'] ul li button").css('filter',' grayscale(0)').children("img").css('pointer-events','all');
         // make stickers coloured and clickable
-        $("div[class*='listItems'] div div[class*='row'] div[role*='gridcell'] div[class*='sticker'] div div[class*='stickerNode']").css('filter',' grayscale(0)').children("div img").css('pointer-events','all');
+        $("div[class*='listItems'] div[class*='row'] div[role*='gridcell'] div[class*='sticker'] div div[class*='stickerNode']").css('filter',' grayscale(0)').children("div img").css('pointer-events','all');
 
         //Remove annoying nitro banner that appears when emote is clicked
         $("div[class*='premiumPromo']").remove();
@@ -29,7 +29,7 @@ $(document).ready(function () {
                 });
             }
         });
-        $("div[class*='listItems'] div div[class*='row'] div[role*='gridcell'] div[class*='sticker'] div div[class*='stickerNode'] div img[class*='Image']").each(function () {
+        $("div[class*='listItems'] div[class*='row'] div[role*='gridcell'] div[class*='sticker'] div div[class*='stickerNode'] div img[class*='Image']").each(function () {
             if ($(this).attr("affected") != "true") {
                 $(this).attr("affected", "true");
                 $(this).click((e)=>{
