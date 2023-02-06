@@ -19,6 +19,7 @@ $(document).ready(function () {
                     let ufsource = e.currentTarget.getAttribute('src');
                     const url = ufsource.split("?size=");
                     source = url[0] + "?size=48"
+                    source = source.replace(".webp?", ".png?")
 
                     // A really bad way to copy image link to clipboard
                     var $temp = jQuery("<input>");
