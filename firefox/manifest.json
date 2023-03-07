@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "Not Quite Nitro",
+    "description": "An extension that allows you to use discord emoji without nitro",
+    "version": "1.0",
+    "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/16.png",
+      "32": "/images/32.png",
+      "48": "/images/48.png",
+      "128": "/images/128.png"
+    },
+     "default_title":"Not Quite Nitro"
+  },
+  "icons": {
+    "16": "/images/16.png",
+    "32": "/images/32.png",
+    "48": "/images/48.png",
+    "128": "/images/128.png"
+  },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://discord.com/*"
+            ],
+            "js": [
+                "jquery.min.js",
+                "script.js"
+            ]
+        }
+    ],
+    "browser_specific_settings": {
+  "gecko": {
+    "id": "notquitenitro@suhasdissa"
+  }
+}
+
+}

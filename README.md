@@ -1,5 +1,5 @@
 <p align="center">
-<img src="images/banner.jpg" width="100%">
+<img src="banner.jpg" width="100%">
 </p>
 
 Chrome / Firefox extension to use Discord Emoji without Nitro
@@ -14,12 +14,17 @@ Get addon from firefox addons
 [![Download For Chrome/Opera](https://img.shields.io/badge/Download%20For%20Chrome-238636?style=for-the-badge&logoColor=white)](https://github.com/suhasdissa/NotQuiteNitro/archive/refs/heads/main.zip)
 - Download this repo as a ZIP file from GitHub.
 - Unzip the file.
+- Copy the `chrome` folder to somewhere safe (rename if needed)
 - In Chrome/Edge go to the extensions page (chrome://extensions or brave://extensions or opera://extensions).
 - Enable Developer Mode.
-- Drag the extracted folder anywhere on the page to import it (do not delete the folder afterwards).
+- Drag the copied `chrome` folder anywhere on the page to import it (do not delete the folder afterwards).
+
+If you are having any problem with drag and drop, try the following steps
+- Click `Load Unpacked Extension` button
+- Select the `chrome` folder (or the folder you've previously renamed)
 
 <p align="center">
-<img src="images/integrations.png" height="64px">
+<img src="integrations.png" height="64px">
 </p>
 
 ## How to use
@@ -52,6 +57,6 @@ Hm , I dont think so. Technically this extesnsion does not communicate with disc
 
 - This is still under development, so be sure to check this repository frequently
 
-## Known Bugs
+## TODO
 
-I Fixed all the previous bugs !!!
+Add a UI to customize extension settings.
