@@ -44,12 +44,7 @@ $(document).ready(function () {
                     if (UsePng) {
                         source = source.replace(".webp?", ".png?")
                     }
-                    // A really bad way to copy image link to clipboard
-                    var $temp = jQuery("<input>");
-                    jQuery("body").append($temp);
-                    $temp.val(source).select();
-                    document.execCommand("copy");
-                    $temp.remove();
+                    copyTextToClipboard(source)
                 });
             }
         });
@@ -61,13 +56,19 @@ $(document).ready(function () {
                     let ufsource = e.currentTarget.getAttribute('src');
                     const url = ufsource.split("?size=");
                     source = url[0] + "?size=128"
-                    var $temp = jQuery("<input>");
-                    jQuery("body").append($temp);
-                    $temp.val(source).select();
-                    document.execCommand("copy");
-                    $temp.remove();
+                    copyTextToClipboard(source)
                 });
             }
         });
     }, 1000);
 });
+
+async function copyTextToClipboard(textToCopy) {
+    try {
+        if (navigator?.clipboard?.writeText) {
+            await navigator.clipboard.writeText(textToCopy);
+        }
+    } catch (err) {
+        console.error(err);
+    }
+}
