@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Not Quite Nitro",
   "description": "An extension that allows you to use discord emoji without nitro",
-  "version": "1.0",
+  "version": "4.0",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
