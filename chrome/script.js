@@ -22,8 +22,8 @@ $(document).ready(function () {
         $("div[class*='listItems'] div[class*='row'] div[role*='gridcell'] div[class*='sticker'] div div[class*='stickerNode']").css('filter', ' grayscale(0)').children("div img").css('pointer-events', 'all');
 
         //Remove annoying nitro banner that appears when emote is clicked
-        $("div[class*='premiumPromo']").remove();
-        $("div[class*='upsellWrapper']").remove();
+        $("div[class*='emojiPicker'] div[class*='hasTabParentContainer']").remove();
+        $("div[class*='emojiPicker'] div[class*='backdrop'").remove();
     }, 100);
 
     /*================= Emotes ============================*/
